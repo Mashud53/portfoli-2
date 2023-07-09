@@ -1,0 +1,231 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+.banner-container{
+    background-image: url("/images/banner/banner1.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.banner-info{    
+    
+    text-align: right;
+    padding-top: 150px;
+    padding-right: 150px;
+}
+.banner-title{
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+   
+}
+.banner-desc{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.banner-btn{
+    background-color: #F15B22;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFF;
+}
+.body{
+    margin: 0 150px;
+}
+.working-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin:100px 0 ;
+}
+.working-pic{
+    background-image: url("/images/gradient3.png");
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: bottom;
+}
+.working-info{
+    margin-right: 0px;
+}
+.working-title{
+    color: #151414);
+    font-size: 40px;
+    font-weight: 700;
+}
+.working-desc{
+    color: #444343);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.working-list li{
+    color: #555252);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.my-plans-title{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.my-plans-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.primary-title{
+    text-align: center;
+    color: #3b3939;
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+.primary-desc{
+    text-align: center;
+    color: #3b3939;
+    font-size: 20px;
+    
+    
+    
+
+}
+.my-plan-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.my-plan-pic{
+    height: 90px;
+    width: 90px;
+    margin: 0 0;
+    
+}
+.body-photo{
+    background-image: url('/images/gradient2.png'), url('/images/watch.png');
+    height: 300px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 130px;
+}
+.body-photo-info{
+    display: flex;
+    flex-direction: column;
+    padding-top: ;
+}
+.body-photo-title{
+    text-align: left;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 50px;
+    
+}
+.primary-btn{
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    background: white;
+    height: 60px;
+    width: 130px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 50px;
+    margin-bottom: 50px;
+
+}
+footer{
+    background: #151414;
+    ;
+}
+.footer-container{
+    display: flex;
+    align-content: space-around;
+    margin-top: 130px;
+    padding-left: 230px;   
+}
+
+.footer-info{
+    width: 50%;
+    padding-top: 100px;
+    
+    
+}
+.footer-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+.footer-desc{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+}
+.social-links{
+    /*display: flex;
+    align-content: space-around;
+    gap: 100px;*/
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.f-icon{
+    margin: 0 5px;
+}
+.email{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+}
+.phone{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.subscribe{    
+  
+   padding-top: 130px;
+   padding-left: 20px;
+
+}
+.sub{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    
+    
+}
+.subscribe input[type="email"]{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.subscribe a{
+   text-decoration: none;
+   cursor: pointer;
+   
+   
+}
+
+
